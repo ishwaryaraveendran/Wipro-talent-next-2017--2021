@@ -1,0 +1,57 @@
+class WagonR extends Car{
+    private int Mileage;
+    
+        
+
+        public WagonR(int Mileage)  
+        
+        {
+            super(false,"4");
+            this.Mileage = Mileage;
+        }
+        @Override
+        public String getMileage()
+        {
+            return Mileage + " kmpl";
+        }
+    }
+
+        
+
+/**
+*   HondaCity class
+**/
+class HondaCity extends Car{
+    
+        
+        private int Mileage;
+
+        public HondaCity(int Mileage)  
+        {
+            super(true, "4");
+            this.Mileage = Mileage;
+        }
+        @Override
+        public  String getMileage()
+        {
+            return Mileage + " kmpl";
+        }
+    }
+/**
+*   InnovaCrysta class
+**/
+class InnovaCrysta extends Car{
+   
+        private int Mileage;
+
+        public InnovaCrysta(int Mileage) 
+        {
+            super(false, "6");
+            this.Mileage = Mileage;
+        }
+        @Override
+        public  String getMileage()
+        {
+            return Mileage + " kmpl";
+        }
+    }
